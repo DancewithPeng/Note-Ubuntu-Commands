@@ -15,18 +15,16 @@ Ubuntu常用命令
   netstat [options...]
 ```
 常用的option有
-
-  - `-r 显示路由表`
-  - `-a 显示所有的socket`
-  - `-p 显示PID和程序名称`
+  - `-r 显示路由表`
+  - `-a 显示所有的socket`
+  - `-p 显示PID和程序名称`
   
 ### kill - 杀死进程
 ```
   kill [signal] <PID>
 ```
 常用的signal有
-
-  - `-9 exit 退出进程`
+  - `-9 exit 退出进程`
   
 ### grep - 全局搜索工具
 ```
@@ -34,5 +32,5 @@ Ubuntu常用命令
 ```
 常见的option有
 
-  - `-i 忽略大小写`
+  - `-i 忽略大小写`
   
