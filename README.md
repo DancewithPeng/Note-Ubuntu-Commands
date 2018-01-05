@@ -12,7 +12,7 @@ Ubuntu常用命令
 常用的option有
 
   - `-o 将下载的数据保存到指定的文件`
-  - `-i 只下载响应头`
+  - `-i 同时显示HTTP Header`
 
 ## netstat - 查看网络状态
 ```
