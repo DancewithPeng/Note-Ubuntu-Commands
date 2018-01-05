@@ -1,5 +1,9 @@
 # Blog-Ubuntu-Commands
 Ubuntu常用命令
+[curl](#curl - URL工具)
+[netstat](#netstat - 查看网络状态)
+[kill](#kill - 杀死进程)
+[grep](#grep - 全局搜索工具)
 
 ## curl - URL工具
 ```
