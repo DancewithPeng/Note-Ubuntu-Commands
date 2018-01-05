@@ -19,18 +19,16 @@ Ubuntu常用命令
   - `-a 显示所有的socket`
   - `-p 显示PID和程序名称`
   
-### kill - 杀死进程
----
+## kill - 杀死进程
 ```
   kill [signal] <PID>
 ```
 常用的signal有
   - `-9 exit 退出进程`
   
-### grep - 全局搜索工具
----
+## grep - 全局搜索工具
 ```
-  command | grep [options...] <RE>
+  <command> | grep [options...] <RE>
 ```
 常见的option有
 
