@@ -1,9 +1,10 @@
 # Blog-Ubuntu-Commands
 Ubuntu常用命令
-[curl](#1)
-[netstat](#2)
-[kill](#3)
-[grep](#4)
+
+- [curl](#1)
+- [netstat](#2)
+- [kill](#3)
+- [grep](#4)
 
 ## curl - URL工具
 ```
@@ -45,7 +46,7 @@ Ubuntu常用命令
 常见的option有
 
   - `-a 显示所有内容`
-  - `-n 同时显示行号`
+  - `-n 同时显示行号`
   
 ## tail - 查看文件最末尾的内容
 ```
