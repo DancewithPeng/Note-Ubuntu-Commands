@@ -3,8 +3,9 @@ Ubuntu常用命令
 
 - [curl](#1)
 - [netstat](#2)
-- [kill](#3)
-- [grep](#4)
+- [ps](#3)
+- [kill](#4)
+- [grep](#5)
 
 ## curl - URL工具
 ```bash
@@ -28,9 +29,9 @@ Ubuntu常用命令
 ```bash
   ps [options...]
 ```
-常用的option有
-  - `-e, -A 显示所有进程`
-  - `-f 显示全部格式，包括调用的命令`
+常用的option有 
+  - `-e, -A 显示所有进程`
+  - `-f 显示全部格式，包括调用的命令`
 
 ## kill - 杀死进程
 ```bash
