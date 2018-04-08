@@ -7,7 +7,7 @@ Ubuntu常用命令
 - [grep](#4)
 
 ## curl - URL工具
-```
+```bash
   curl [options...] <url>
 ```
 常用的option有
@@ -16,7 +16,7 @@ Ubuntu常用命令
   - `-i 同时显示HTTP Header`
 
 ## netstat - 查看网络状态
-```
+```bash
   netstat [options...]
 ```
 常用的option有
@@ -24,15 +24,23 @@ Ubuntu常用命令
   - `-a 显示所有的socket`
   - `-p 显示PID和程序名称`
   
-## kill - 杀死进程
+## ps - 查看进程信息
+```bash
+  ps [options...]
 ```
-  kill [signal] <PID>
+常用的option有
+  - `-e, -A 显示所有进程`
+  - `-f 显示全部格式，包括调用的命令`
+
+## kill - 杀死进程
+```bash
+  kill [signal] <PID>
 ```
 常用的signal有
   - `-9 exit 退出进程`
   
 ## grep - 全局搜索工具
-```
+```bash
   <command> | grep [options...] <RE>
 ```
 常见的option有
@@ -40,7 +48,7 @@ Ubuntu常用命令
   - `-i 忽略大小写`
 
 ## cat - 查看文件内容
-```
+```bash
   cat [options...] <filename>
 ```
 常见的option有
@@ -49,7 +57,7 @@ Ubuntu常用命令
   - `-n 同时显示行号`
   
 ## tail - 查看文件最末尾的内容
-```
+```bash
   tail [options...] <filename>
 ```
 常见的option有
